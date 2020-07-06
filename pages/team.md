@@ -6,11 +6,11 @@
 IEEE JMI Student Branch
 
 | Chairperson      | Vice Chairperson | Vice Chairperson |
-| ---------------- | ---------------- | ---------------- |
+| :--------------- | :--------------: | ---------------: |
 | Alisamar Husain  | Nadia Mukhtar    | Hammad Shakir    |
 
 | General Secretary | General Secretary |
-| ----------------- | ----------------- |
+| :---------------- | ----------------: |
 | Aaliya Hafeez     | Zehra Fatima      |
 
 <br>
@@ -18,7 +18,7 @@ IEEE JMI Student Branch
 Women in Engineering Chapter, JMI
 
 | Chairperson      | Secretary        |
-| ---------------- | ---------------- |
+| :--------------- | ---------------: |
 | Noaima Bari      | Abeer Majid Khan |
 
 <br>
@@ -26,7 +26,7 @@ Women in Engineering Chapter, JMI
 Computer Society Chapter, JMI
 
 | Chairperson      | Secretary        | Secretary        |
-| ---------------- | ---------------- | ---------------- |
+| :--------------- | :--------------: | ---------------: |
 | Mohsin Alam      | Divaker Sharma   | Farhan Khan      |
 
 <br>
@@ -34,7 +34,7 @@ Computer Society Chapter, JMI
 Power Electronics Society Chapter, JMI
 
 | Chairperson      | Secretary        |
-| ---------------- | ---------------- |
+| :--------------- | ---------------: |
 | Mohd Saud        | Sajid Iquebal    |
 
 <br>
@@ -42,7 +42,7 @@ Power Electronics Society Chapter, JMI
 Industry Applications Society Chapter, JMI
 
 | Chairperson         | Secretary        |
-| ------------------- | ---------------- |
+| :------------------ | ---------------: |
 | Syed Mohammad Hamza | Imroz Nezami     |
 
 <br>
@@ -50,5 +50,5 @@ Industry Applications Society Chapter, JMI
 Power and Energy Society Chapter, JMI
 
 | Chairperson      | Secretary        |
-| ---------------- | ---------------- |
+| :--------------- | ---------------: |
 | Shadab Faisal    | Sundus Afreen    |
