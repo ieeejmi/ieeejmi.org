@@ -1,9 +1,7 @@
 ## Our Team
 ### The Executive Committee of 2020-21
-Meet our team of dedicated IEEE Student Members who make this branch work.
+Meet our team of dedicated IEEE Student Members.
 <br>
-
-*IEEE JMI Student Branch*
 
 | Chairperson      | Vice Chairperson | Vice Chairperson |
 | :--------------- | :--------------: | ---------------: |
