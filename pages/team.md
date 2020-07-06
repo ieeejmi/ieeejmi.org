@@ -1,17 +1,54 @@
 ## Our Team
-### The Execomm of 2020-21
+### The Executive Committee of 2020-21
 
 <br>
+
+IEEE JMI Student Branch
 
 | Chairperson      | Vice Chairperson | Vice Chairperson |
 | ---------------- | ---------------- | ---------------- |
 | Alisamar Husain  | Nadia Mukhtar    | Hammad Shakir    |
 
-**Chairperson**<br>
-Alisamar Husain
+| General Secretary | General Secretary |
+| ----------------- | ----------------- |
+| Aaliya Hafeez     | Zehra Fatima      |
 
-**Vice Chairperson**<br>
-Nadia Mukhtar
+<br>
 
-**Vice Chairperson**<br>
-Hammad Shakir
+Women in Engineering Chapter, JMI
+
+| Chairperson      | Secretary        |
+| ---------------- | ---------------- |
+| Noaima Bari      | Abeer Majid Khan |
+
+<br>
+
+Computer Society Chapter, JMI
+
+| Chairperson      | Secretary        | Secretary        |
+| ---------------- | ---------------- | ---------------- |
+| Mohsin Alam      | Divaker Sharma   | Farhan Khan      |
+
+<br>
+
+Power Electronics Society Chapter, JMI
+
+| Chairperson      | Secretary        |
+| ---------------- | ---------------- |
+| Mohd Saud        | Sajid Iquebal    |
+
+<br>
+
+Industry Applications Society Chapter, JMI
+
+| Chairperson         | Secretary        |
+| ------------------- | ---------------- |
+| Syed Mohammad Hamza | Imroz Nezami     |
+
+<br>
+
+Power and Energy Society Chapter, JMI
+
+| Chairperson      | Secretary        |
+| ---------------- | ---------------- |
+| Shadab Faisal    | Sundus Afreen    |
