@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: "IEEE JMI"
-show_downloads: "false"
+show_downloads: false
+description: "Official Website of the IEEE JMI Student Branch"
+logo: "top"
