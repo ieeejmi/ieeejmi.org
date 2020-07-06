@@ -3,7 +3,7 @@
 Meet our team of dedicated IEEE Student Members who make this branch work.
 <br>
 
-**IEEE JMI Student Branch**
+*IEEE JMI Student Branch*
 
 | Chairperson      | Vice Chairperson | Vice Chairperson |
 | :--------------- | :--------------: | ---------------: |
@@ -15,7 +15,7 @@ Meet our team of dedicated IEEE Student Members who make this branch work.
 
 <br>
 
-**Women in Engineering Chapter, JMI**
+*Women in Engineering Chapter, JMI*
 
 | Chairperson      | Secretary        |
 | :--------------- | ---------------: |
@@ -23,7 +23,7 @@ Meet our team of dedicated IEEE Student Members who make this branch work.
 
 <br>
 
-**Computer Society Chapter, JMI**
+*Computer Society Chapter, JMI*
 
 | Chairperson      | Secretary        | Secretary        |
 | :--------------- | :--------------: | ---------------: |
@@ -31,7 +31,7 @@ Meet our team of dedicated IEEE Student Members who make this branch work.
 
 <br>
 
-**Power Electronics Society Chapter, JMI**
+*Power Electronics Society Chapter, JMI*
 
 | Chairperson      | Secretary        |
 | :--------------- | ---------------: |
@@ -39,7 +39,7 @@ Meet our team of dedicated IEEE Student Members who make this branch work.
 
 <br>
 
-**Industry Applications Society Chapter, JMI**
+*Industry Applications Society Chapter, JMI*
 
 | Chairperson         | Secretary        |
 | :------------------ | ---------------: |
@@ -47,7 +47,7 @@ Meet our team of dedicated IEEE Student Members who make this branch work.
 
 <br>
 
-**Power and Energy Society Chapter, JMI**
+*Power and Energy Society Chapter, JMI*
 
 | Chairperson      | Secretary        |
 | :--------------- | ---------------: |
