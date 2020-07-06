@@ -1,9 +1,9 @@
 ## Our Team
 ### The Executive Committee of 2020-21
-
+Meet our team of dedicated IEEE Student Members who make this branch work.
 <br>
 
-IEEE JMI Student Branch
+**IEEE JMI Student Branch**
 
 | Chairperson      | Vice Chairperson | Vice Chairperson |
 | :--------------- | :--------------: | ---------------: |
@@ -15,7 +15,7 @@ IEEE JMI Student Branch
 
 <br>
 
-Women in Engineering Chapter, JMI
+**Women in Engineering Chapter, JMI**
 
 | Chairperson      | Secretary        |
 | :--------------- | ---------------: |
@@ -23,7 +23,7 @@ Women in Engineering Chapter, JMI
 
 <br>
 
-Computer Society Chapter, JMI
+**Computer Society Chapter, JMI**
 
 | Chairperson      | Secretary        | Secretary        |
 | :--------------- | :--------------: | ---------------: |
@@ -31,7 +31,7 @@ Computer Society Chapter, JMI
 
 <br>
 
-Power Electronics Society Chapter, JMI
+**Power Electronics Society Chapter, JMI**
 
 | Chairperson      | Secretary        |
 | :--------------- | ---------------: |
@@ -39,7 +39,7 @@ Power Electronics Society Chapter, JMI
 
 <br>
 
-Industry Applications Society Chapter, JMI
+**Industry Applications Society Chapter, JMI**
 
 | Chairperson         | Secretary        |
 | :------------------ | ---------------: |
@@ -47,7 +47,7 @@ Industry Applications Society Chapter, JMI
 
 <br>
 
-Power and Energy Society Chapter, JMI
+**Power and Energy Society Chapter, JMI**
 
 | Chairperson      | Secretary        |
 | :--------------- | ---------------: |
