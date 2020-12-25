@@ -1,5 +1,4 @@
 theme: jekyll-theme-tactile
-title: "IEEE JMI"
-show_downloads: false
+title: ["IEEE JMI"]
 description: "Student Branch Website"
-logo: "img/ieeejmi.png"
+show_downloads: false
