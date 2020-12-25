@@ -1,6 +1,7 @@
-### The Executive Committee of 2020-21
+# Our Team
+### Executive Committee of 2020-21
 Meet our team of dedicated IEEE Student Members.
-<br>
+<br><br>
 
 | **Chairperson**  | **Vice Chairperson** | **Vice Chairperson** |
 | :--------------- | :------------------: | -------------------: |
