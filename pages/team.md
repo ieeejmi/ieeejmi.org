@@ -1,4 +1,4 @@
-# Our Team
+## Our Team
 ### Executive Committee of 2020-21
 Meet our team of dedicated IEEE Student Members.
 <br><br>
