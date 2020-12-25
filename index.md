@@ -4,6 +4,14 @@ Welcome to the IEEE Jamia Millia Islamia Student Branch website.
 | :----------------------------- | :-----------------------: | -----------------------------: |
 | [Whats New](pages/projects.md) | [Our Team](pages/team.md) | [Contact Us](pages/contact.md) |
 
+<br>
+
+<style>
+  td {
+    border: none !important;
+  }
+</style>
+
 ## About
 We are one of the largest societies in Jamia Millia Islamia with over 200 members and an active
 staff participation. We promote, encourage and assist technological and cultural education in the 
