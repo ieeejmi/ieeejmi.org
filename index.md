@@ -1,6 +1,6 @@
 Welcome to the IEEE Jamia Millia Islamia Student Branch website.
 
-### Quick Links
+#### Quick Links
 - [Events and Projects](pages/projects.md)
 - [Team](pages/team.md)
 - [Contact Us](pages/contact.md)
