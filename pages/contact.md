@@ -2,12 +2,18 @@
 ### Get in Touch with us
 
 Our main channel of communication is via email. Please write to us for any inquiries, proposals or general information.
-For inquiries, proposals and general information, please address your email to
+For enquiries, proposals and general information, please address your email to
+
+| **Our Team Email**   |
+| :------------------: |
+| team@ieeejmi.org     |
+
+For proposals and business enquiries, please address your email to
 
 **General Secretary, IEEE JMI**<br>
 [gensec@ieeejmi.org](mailto:gensec@ieeejmi.org)
 
-For organizational inquiries, official or urgent communication, please address your email to
+For organizational enquiries, official or urgent communication, please address your email to
 
 **Chairperson, IEEE JMI**<br>
 [chair@ieeejmi.org](mailto:chair@ieeejmi.org)
