@@ -6,7 +6,7 @@ For enquiries and general information, please address your email to
 
 | **Our Team Email** |
 | :----------------: |
-| [team@ieeejmi.org](mailto:team@ieeejmi.org)     |
+| team@ieeejmi.org   |
 <br>
 
 For proposals and business enquiries, please write to
