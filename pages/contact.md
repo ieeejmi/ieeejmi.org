@@ -4,9 +4,9 @@
 Our main channel of communication is via email. Please write to us for any inquiries, proposals or general information.
 For enquiries and general information, please address your email to
 
-| **Our Team Email** |
-| :----------------: |
-| team@ieeejmi.org   |
+| **Our Team Email**                            |
+| :-------------------------------------------: |
+| [team@ieeejmi.org](mailto:team@ieeejmi.org)   |
 <br>
 
 For proposals and business enquiries, please write to
