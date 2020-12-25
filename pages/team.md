@@ -3,19 +3,21 @@
 Meet our team of dedicated IEEE Student Members.
 <br>
 
-| Chairperson      | Vice Chairperson | Vice Chairperson |
-| :--------------- | :--------------: | ---------------: |
-| Alisamar Husain  | Nadia Mukhtar    | Hammad Shakir    |
+| **Chairperson**  | **Vice Chairperson** | **Vice Chairperson** |
+| :--------------- | :------------------: | -------------------: |
+| Alisamar Husain  | Nadia Mukhtar        | Hammad Shakir        |
 
-| General Secretary | General Secretary |
-| :---------------- | ----------------: |
-| Aaliya Hafeez     | Zehra Fatima      |
+<br>
+
+| **General Secretary** | **General Secretary** |
+| :-------------------- | --------------------: |
+| Aaliya Hafeez         | Zehra Fatima          |
 
 <br>
 
 *Women in Engineering Chapter, JMI*
 
-| Chairperson      | Secretary        |
+| **Chairperson**  | **Secretary**    |
 | :--------------- | ---------------: |
 | Noaima Bari      | Abeer Majid Khan |
 
@@ -23,7 +25,7 @@ Meet our team of dedicated IEEE Student Members.
 
 *Computer Society Chapter, JMI*
 
-| Chairperson      | Secretary        | Secretary        |
+| **Chairperson**  | **Secretary**    | **Secretary**    |
 | :--------------- | :--------------: | ---------------: |
 | Mohsin Alam      | Divaker Sharma   | Farhan Khan      |
 
@@ -31,7 +33,7 @@ Meet our team of dedicated IEEE Student Members.
 
 *Power Electronics Society Chapter, JMI*
 
-| Chairperson      | Secretary        |
+| **Chairperson**  | **Secretary**    |
 | :--------------- | ---------------: |
 | Mohd Saud        | Sajid Iquebal    |
 
@@ -39,7 +41,7 @@ Meet our team of dedicated IEEE Student Members.
 
 *Industry Applications Society Chapter, JMI*
 
-| Chairperson         | Secretary        |
+| **Chairperson**     | **Secretary**    |
 | :------------------ | ---------------: |
 | Syed Mohammad Hamza | Imroz Nezami     |
 
@@ -47,6 +49,6 @@ Meet our team of dedicated IEEE Student Members.
 
 *Power and Energy Society Chapter, JMI*
 
-| Chairperson      | Secretary        |
+| **Chairperson**  | **Secretary**    |
 | :--------------- | ---------------: |
 | Shadab Faisal    | Sundus Afreen    |
