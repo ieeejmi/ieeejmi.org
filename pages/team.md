@@ -1,7 +1,9 @@
 ## Our Team
-### Executive Committee of 2020-21
-Meet our team of dedicated IEEE Student Members.
+Meet our team of dedicated IEEE Student Members who work to make this society a success, 
+with the advice and support of our branch councillor **Dr. Ahteshamul Haque** of the Dept. of Electrical Engineering, FET JMI.
 <br><br>
+
+### Executive Committee of 2020-21
 
 | **Chairperson**  | **Vice Chairperson** | **Vice Chairperson** |
 | :--------------- | :------------------: | -------------------: |
@@ -15,7 +17,7 @@ Meet our team of dedicated IEEE Student Members.
 
 <br>
 
-*Women in Engineering Chapter, JMI*
+*Women in Engineering Chapter*
 
 | **Chairperson**  | **Secretary**    |
 | :--------------- | ---------------: |
@@ -23,7 +25,7 @@ Meet our team of dedicated IEEE Student Members.
 
 <br>
 
-*Computer Society Chapter, JMI*
+*Computer Society Chapter*
 
 | **Chairperson**  | **Secretary**    | **Secretary**    |
 | :--------------- | :--------------: | ---------------: |
@@ -31,7 +33,7 @@ Meet our team of dedicated IEEE Student Members.
 
 <br>
 
-*Power Electronics Society Chapter, JMI*
+*Power Electronics Society Chapter*
 
 | **Chairperson**  | **Secretary**    |
 | :--------------- | ---------------: |
@@ -39,7 +41,7 @@ Meet our team of dedicated IEEE Student Members.
 
 <br>
 
-*Industry Applications Society Chapter, JMI*
+*Industry Applications Society Chapter*
 
 | **Chairperson**     | **Secretary**    |
 | :------------------ | ---------------: |
@@ -47,7 +49,7 @@ Meet our team of dedicated IEEE Student Members.
 
 <br>
 
-*Power and Energy Society Chapter, JMI*
+*Power and Energy Society Chapter*
 
 | **Chairperson**  | **Secretary**    |
 | :--------------- | ---------------: |
