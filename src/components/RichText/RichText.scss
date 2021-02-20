@@ -1,0 +1,28 @@
+@import '../../App.scss';
+
+// Custom overrides
+.block-menu-trigger {
+  display: none !important;
+}
+
+.sc-gsTCUz {
+  // Editor highlight toolbox height fix
+  height: auto !important;
+}
+
+.jUMTwg ul.checkbox_list li input {
+  margin: 0.75em 0.5em 0.75em 0.5em !important;
+}
+.hvbKXB ul.checkbox_list li input {
+  margin: 0.75em 0.5em 0.75em 0.5em !important;
+}
+.sc-iemXMA {
+  text-align: center !important;
+}
+
+.ProseMirror p {
+  font-family: $fontOxygen;
+  font-size: 1em;
+  line-height: 1.25em;
+  // letter-spacing: 0 !important;
+}

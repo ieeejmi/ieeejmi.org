@@ -1,0 +1,105 @@
+@import '../../App.scss';
+
+#chatbox {
+  padding: 1em 0;
+}
+
+#message-box {
+  max-height: 20em;
+  overflow: scroll;
+  display: grid;
+  // align-content: end;
+  
+  -ms-overflow-style: none;
+  scrollbar-width: none !important;
+
+  &::-webkit-scrollbar {
+    display: none;
+  } 
+
+  & ~ input {
+    font-size: 1.25em;
+    text-align: right;
+  }
+
+  .message {
+    margin: 0.25em 0;
+    padding: 0.5em 1em;
+    min-width: 25%;
+    max-width: 60%;
+    position: relative;
+    border-radius: 10px;
+
+    p {
+      margin: 0;
+      font-size: 0.9em;
+    }
+
+    .timestamp {
+      width: max-content;
+      color: darkgray;
+      font-size: 0.5em;
+      position: absolute;
+      margin: 0 1em;
+      bottom: 0;
+    }
+  }
+
+  .from-user {
+    text-align: right;
+    margin-right: 0;
+    margin-left: auto;
+    background-color: $colorPrimary;
+    color: #fff;
+    border-bottom-right-radius: 0;
+
+    .timestamp {
+      text-align: right;
+      right: 100%;
+    }
+  }
+
+  .from-root {
+    text-align: left;
+    margin-right: auto;
+    margin-left: 0;
+    background-color: darkgray;
+    color: $colorPrimary;
+    border-bottom-left-radius: 0;
+
+    .timestamp {
+      text-align: left;
+      left: 100%;
+    }
+  }
+
+  .from-system {
+    text-align: center;
+    max-width: 80%;
+    background-color: darkgray;
+    color: #fff;
+    font-size: 0.75em;
+    font-family: 'Neue Montreal';
+    margin: 1em auto;
+
+    .timestamp {
+      display: none;
+    }
+
+    p {
+      letter-spacing: 1px;
+    }
+  }
+}
+
+#leave-your-card {
+  .card {
+    padding: 1.5em;
+
+    input {
+      font-size: 1em;
+      margin: 0;
+      padding: 0.25em 0;
+    }
+  }
+}

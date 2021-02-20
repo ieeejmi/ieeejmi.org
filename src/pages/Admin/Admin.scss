@@ -1,0 +1,240 @@
+@import '../../App.scss';
+
+.admin-panel {
+  padding: 1em 0;
+
+  .admin-nav {
+    position: fixed;
+    left: 1.5em;
+
+    .admin-nav-link {
+      padding: 1em;
+      padding-left: 0;
+      border-bottom: 2px solid #adadad;
+      width: 100%;
+    }
+  }
+
+  .admin-control {
+    // padding: 0 3em;
+
+    h1, .control-title {
+      font-size: 3em;
+    }
+  }
+
+  .admin-section-title {
+    display: flex;
+    flex-direction: row;
+
+    .section-title {
+      flex-grow: 1;
+    }
+  }
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+
+    .admin-nav {
+      position: unset;
+      margin-bottom: 2em;
+
+      .admin-nav-link {
+        padding: 0.5em 0;
+        border-bottom: 2px solid #adadad;
+      }
+    }
+
+    .admin-control {
+      padding: 0;
+    }
+  }
+}
+
+#admin-blog {
+  #admin-article-list {
+    margin: 2em 0;
+
+    h3 {
+      font-size: 1.25em;
+      color: #000;
+    }
+
+    .admin-article {
+      border-bottom: 2px solid #666;
+      margin: 2em 0 0 0;
+      padding: 0 0 0.5em 0;
+
+      .controls {
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+
+        & > * {
+          flex-grow: 1;
+        }
+      }
+
+      &:last-of-type {
+        margin-bottom: 2em;
+      }
+    }
+  }
+}
+
+#admin-blog-editor {
+  #editor {
+    display: flex;
+    flex-direction: column;
+
+    #content-title, #content-subtitle {
+      border: none;
+      background: transparent;
+      font-size: 4em;
+      padding: 0;
+      max-width: 100%;
+    }
+
+    #content-title {
+      margin-bottom: 0.25em;
+      font-family: $fontOxygen;
+      font-weight: 700;
+    }
+    #content-subtitle {
+      margin-top: 0;
+      font-size: 1.75em;
+      color: $colorPrimary;
+    }
+  }
+}
+
+#admin-project {
+
+}
+
+#admin-project-editor {
+  #editor {
+    display: flex;
+    flex-direction: column;
+
+    #content-title, #content-description {
+      border: none;
+      background: transparent;
+      font-size: 4em;
+      padding: 0;
+      max-width: 100%;
+    }
+
+    #content-title {
+      margin-bottom: 0.25em;
+      font-family: $fontOxygen;
+      font-weight: 700;
+    }
+    #content-description {
+      margin-top: 0;
+      font-size: 1.75em;
+      color: $colorPrimary;
+    }
+  }
+}
+
+#admin-chatbox {
+  display: flex;
+  flex-direction: row;
+  margin: 1em auto;
+
+  #chat-list {
+    width: 35%;
+    margin-right: 1em;
+
+    .chat {
+      border-bottom: 2px solid black;
+      padding: 0.25em 0;
+      cursor: pointer;
+
+      p {
+        margin: 0;
+        font-weight: 600;
+      }
+
+      .timestamp {
+        color: #666;
+        font-size: 0.8em;
+      }
+    }
+  }
+
+  #chat-messages {
+    width: 100%;
+    
+    #no-conv {
+      text-align: center;
+      border: 1px dotted darkgray;
+      padding: 3em;
+      margin: 0 1em;
+      height: 10em;
+    }
+
+    .from-user {
+      text-align: left;
+      margin-right: auto;
+      margin-left: 0;
+      background-color: darkgray;
+      color: $colorPrimary;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 0;
+  
+      .timestamp {
+        text-align: left;
+        left: 100%;
+        right: unset;
+      }
+    }
+  
+    .from-root {
+      text-align: right;
+      margin-right: 0;
+      margin-left: auto;
+      background-color: $colorPrimary;
+      color: #fff;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 0;
+  
+      .timestamp {
+        text-align: right;
+        right: 100%;
+        left: unset;
+      }
+    }
+  }
+}
+
+#admin-contacts {
+  #contact-list {
+    display: flex;
+    flex-flow: row; 
+    flex-wrap: wrap; 
+
+    .card {
+      margin: 0.5em 0;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      box-shadow: none;
+      border: 2px solid #000;
+
+      button {
+        padding-right: 0;
+      }
+
+      @media (max-width: 600px) {
+        flex-direction: column;
+
+        button {
+          padding: 1em 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+#login-box {
+  margin: 4em 0;
+
+  .input-group {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+}
+
+.firebaseui-idp-list {
+  padding: 0.5em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+
+  .firebaseui-list-item {
+    display: flex;
+    flex-direction: row;
+
+    .firebaseui-idp-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      
+      width: 100%;
+      height: fit-content;
+      padding: 0.5em 1em;
+
+      .firebaseui-idp-icon-wrapper {
+        width: fit-content;
+        padding: 0.25em;
+        padding-right: 0.5em;
+
+        .firebaseui-idp-icon {
+          height: 1.25em;
+          width: auto;
+        }
+      }
+
+      .firebaseui-idp-text-long {
+        display: none;
+      }
+
+      // CUSTOM OVERRIDE
+      &[data-provider-id="google.com"] {
+        color: #000;
+      }
+    }
+  }
+}

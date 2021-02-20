@@ -1,0 +1,146 @@
+@import '../../App.scss';
+
+#hero-home {
+  margin: 8em auto 12em auto;
+  animation-duration: 1.25s;
+
+  #title-block {
+    text-align: center;
+    margin: 4em 0;
+    font-size: 1.75em;
+    
+    h1 {
+      font-family: $fontMontserrat;
+      font-weight: 600;
+      letter-spacing: -1mm;
+      color: #000;
+    }
+
+    h3 {
+      color: $colorPrimary;
+      width: 100%;
+    }
+
+    #profile-home {
+      width: 10em;
+      right: 2em;
+      margin: -2em 1em;
+      z-index: -1;
+      position: absolute;
+      
+      &::after {
+        content: '';
+        display: block;
+        
+        right: -1em;
+        bottom: -1em;
+        height: 100%;
+        width: 100%;
+        border: 2px solid $colorPrimary;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    // margin: -2em auto 8em auto;
+    margin: 6em auto;
+
+    #title-block {
+      font-size: 1.125em;
+      text-align: left;
+      position: relative;
+      
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        background: #888;
+        bottom: -4em;
+        right: 1em;
+        width: 50px;
+        height: 5px;
+      }
+
+      #profile-home {
+        position: relative;
+        margin: -2em 0 -1em 0;
+        width: 65%
+      }
+    }
+  }
+}
+
+#about-home {
+  padding: 8em 2em !important;
+  text-align: center;
+
+  #about-holder {
+    display: flex;
+    flex-direction: row;
+
+    h2 {
+      color: white;
+    }
+    p {
+      color: #C0C0C0;
+    }
+
+    #profile-home {
+      width: 16em;
+      margin: 0 2em;
+      padding: 1em;
+      margin-right: auto;
+      
+      border-right: 2px solid black;
+      border-bottom: 2px solid black;
+    }
+  }
+
+  @media (max-width: 600px) {
+    padding: 2em !important;    
+    text-align: left;
+    margin: 0;
+
+    #about-holder {
+      flex-direction: column-reverse;
+
+      #profile-home {
+        margin: 2em auto;
+        width: 16em;
+      }
+    } 
+  }
+}
+
+#blog-home {
+  padding: 4em 2em !important;
+
+  h2 {
+    font-size: 2em;
+
+    &[class~="huge-title"] {
+      font-size: 3em;
+    }
+  }
+}
+
+#cta-home {
+  #cta-box {
+    padding: 1em;
+    margin-left: 0;
+    // max-width: 500px;
+    border-left: 3px solid $colorPrimary;
+    border-bottom: 3px solid $colorPrimary;
+
+    h2 {
+      color: #000;
+    }
+    p {
+      margin: 1em 0;
+    }
+
+    @media (min-width: 600px) {
+      padding: 2em;
+    }
+  }
+}
