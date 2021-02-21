@@ -20,14 +20,14 @@ export const Article: React.FC<IArticle> = ({
   const context = useContext(Context)
 
   return (
-    <article className='container medium blog-article'>
+    <article className="container blog-article">
       <Helmet>
         <title>{ title } | IEEE JMI</title>
       </Helmet>
 
-      <h1 className='blog-article-title'>{title}</h1>
-      <h2 className='blog-article-subtitle regular'>{subtitle}</h2>
-      <p className='metadata'>
+      <h1 className="blog-article-title">{title}</h1>
+      <h2 className="blog-article-subtitle regular">{subtitle}</h2>
+      <p className="metadata">
         <span>{publishedOn && publishedOn.toDate().toDateString()}</span>
         <span>
           {
