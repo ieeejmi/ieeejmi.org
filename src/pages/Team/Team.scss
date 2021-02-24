@@ -1,1 +1,25 @@
-  
+.span-badge{
+  font-size: 15px;
+  background-color: #455a64;
+  color: white;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 0.2em; 
+  border-radius: 5px;
+}
+
+.team-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+h2{
+  color: black;
+}
+
+h1{
+  color: grey;
+}
