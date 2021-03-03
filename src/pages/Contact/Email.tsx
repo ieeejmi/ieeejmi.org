@@ -29,7 +29,7 @@ export const Email: React.FC = () => {
     return (
       <section id="leave-your-card" className="container small">
         <h2 className="regular">Leave your card</h2>
-        <p>Please leave your contact details here and I will get back to you with an email as soon as possible.</p>
+        <p>Please leave your contact details here and we will get back to you with an email as soon as possible.</p>
         <br/>
 
         <div className="card">

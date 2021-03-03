@@ -37,9 +37,9 @@ export const Admin: React.FC = () => {
             <Link to="/admin/contact">Contacts</Link>
           </div>
 
-          <div className="admin-nav-link">
+          {/* <div className="admin-nav-link">
             <Link to="/admin/contact/chat">Chat</Link>
-          </div>
+          </div> */}
 
           <div className="admin-nav-link">
             <Link to="/admin/settings">Settings</Link>
@@ -66,7 +66,7 @@ export const Admin: React.FC = () => {
             <Route path="/admin/projects" component={ProjectsManager} />
 
 
-            <Route path="/admin/contact/chat" component={ChatManager} />
+            {/* <Route path="/admin/contact/chat" component={ChatManager} /> */}
             <Route path="/admin/contact" component={ContactManager} />
 
             <Route path="/admin/settings" component={SettingsManager} />
