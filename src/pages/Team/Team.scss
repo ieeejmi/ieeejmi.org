@@ -1,0 +1,41 @@
+.team-section{
+  text-align: center;
+
+  .team-member {
+    margin: auto;
+
+    &:first-of-type {
+      text-align: left;
+      margin-left: 0;
+    }
+
+    &:last-of-type {
+      text-align: right;
+      margin-right: 0;
+    }
+
+    &:only-of-type {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .team-member {
+      &:first-of-type {
+        text-align: center;
+        margin-left: auto;
+      }
+  
+      &:last-of-type {
+        text-align: center;
+        margin-right: auto;
+      }
+    }
+
+    .flexbox[class~="flex-row"] {
+      flex-flow: column;
+    }
+  }
+}

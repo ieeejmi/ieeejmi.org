@@ -13,13 +13,18 @@ export const Contact: React.FC = () => {
         <title>Contact | IEEE JMI</title>
       </Helmet>
       
-      <h1 className="huge-title">Talk</h1>
+      <h1 className="huge-title">Contact</h1>
       <p>
-        Want to get in touch or just chat? Choose your mode of communication below. <br/>
-        You can either chat right here or I can send you an email if you leave your details.
+        
       </p>
 
-      <Switch>
+      <Email/>
+
+      <p>
+        If you'd like to get in touch with us directly, send us an email on team@ieeejmi.org
+      </p>
+
+      {/* <Switch>
         <Route path="/contact/chat" component={Chat} />
 
         <Route path="/contact/mail" component={Email} />
@@ -55,7 +60,7 @@ export const Contact: React.FC = () => {
             </p>
           </section>
         </Route>
-      </Switch>
+      </Switch> */}
     </article>
   )
 }
