@@ -1,116 +1,124 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+
 import './Team.scss'
 
-export const index = () => {
-
+export const Team: React.FC = () => {
   return (
-
     <article className="container">
+      <Helmet> 
+        <title> Team | IEEE JMI </title>
+      </Helmet>
 
-    <Helmet> 
-      <title> Team | IEEEJMI </title>
-    </Helmet>
+      <h1 className="huge-title">Team</h1>
+      <p>
+        
+      </p>
 
-      <h1>Team</h1>
-
-      <section className = "team-section">
-        <div>
-          <h2>Dr. Ahteshamul Haque</h2>
-          <span className = "span-badge"> IEEEJMI Student Branch</span><br/>
-          <span className = "span-badge">Branch Counsellor</span>
+      <section className="team-section">
+        <div className="container flexbox flex-row">
+          <div className="team-member">
+            <h3>Alisamar Husain</h3>
+            <p>Chairperson</p>
+          </div>
+          <div className="team-member">
+            <h3>Nadia Mukhtar</h3>
+            <p>Vice Chairperson</p>
+          </div>
+          <div className="team-member">
+            <h3>Hammad Shakir</h3>
+            <p>Vice Chairperson</p>
+          </div>
         </div>
       </section>
 
-      <hr />
+      <section className="team-section">
+        <div className="container flexbox flex-row">
+          <div className="team-member">
+            <h3>Zehra Fatima</h3>
+            <p>General Secretary</p>
+          </div>
+          
+          <div className="team-member">
+            <h3>Syed Mohammad Hamza</h3>
+            <p>General Secretary</p>
+          </div>
+        </div>
+      </section>
+      <hr/>
 
-      <section className = "team-section">
-        <div>
-          <h2>Alisamar Husain</h2>
-          <span className = "span-badge"> IEEEJMI Student Branch</span><br />
-          <span className = "span-badge">Chairperson</span>
+      <section className="team-section">
+        <h2>Women in Engineering Affinity Group</h2>
+        <div className="container team-member">
+          <h3>Noaima Bari</h3>
+          <p>
+            Chairperson <br/>
+            Women in Engineering Affinity Group
+          </p>
         </div>
       </section>
 
-      <hr />
+      <section className="team-section">
+        <h2>Computer Society Chapter</h2>
+        <div className="container flexbox flex-row">
+          <div className="team-member">
+            <h3>Sankalp Arora</h3>
+            <p>
+              Chairperson <br/>
+              Computer Society Chapter
+            </p>
+          </div>
 
-      <section className = "team-section">
-        <div>
-          <h2 >Nadia Mukhtar</h2>
-          <span className = "span-badge"> IEEEJMI Student Branch</span><br/>
-          <span className = "span-badge">Vice Chairperson</span>
-        </div>
-        <div >
-          <h2 >Hammad Mohammad Shakir</h2>
-          <span className = "span-badge"> IEEEJMI Student Branch</span><br />
-          <span className = "span-badge">Vice Chairperson</span>
-        </div>
-      </section>
-
-      <hr />
-
-      <section className = "team-section">
-        <div>
-          <h2>Zehra Fatima</h2>
-          <span className = "span-badge"> IEEEJMI Student Branch </span><br />
-          <span className = "span-badge">General Secretary</span>
-        </div>
-        <div >
-          <h2 >Syed Mohammad Hamza</h2>
-          <span className = "span-badge">IEEEJMI Student Branch</span><br />
-          <span className = "span-badge">General Secretary</span>
+          <div className="team-member">
+            <h3>Bilal Naqvi</h3>
+            <p>
+              Secretary <br/>
+              Computer Society Chapter
+            </p>
+          </div>
         </div>
       </section>
 
-      <hr />
-
-      <section className = "team-section">
-        <div>
-          <h2 >Noaima Bari</h2>
-          <span className = "span-badge">Women in Engineering Affinity Group</span><br />
-          <span className = "span-badge">Chairperson</span>
+      <section className="team-section">
+        <h2>Power Electronics Society Chapter</h2>
+        <div className="container team-member">
+          <h3>Mohd Saud</h3>
+          <p>
+            Chairperson <br/>
+            Power Electronics Society Chapter
+          </p>
         </div>
       </section>
+      <hr/>
 
-      <hr />
+      <section className="team-section">
+        <h2>Executive Team</h2>
+        <div className="container flexbox flex-row">
+          <div className="team-member">
+            <h3>Fakhra Najm </h3>
+            <p>Technology and Development</p>
+          </div>
 
-      <section  className = "team-section">
-        <div>
-          <h2 >Sankalp Arora</h2>
-          <span className = "span-badge">Computer Society Chapter</span><br />
-          <span className = "span-badge">Chairperson</span>
-        </div>
-        <div >
-          <h2 >Bilal Naqvi</h2>
-          <span className = "span-badge">Computer Society Chapter</span><br />
-          <span className = "span-badge">Secretary</span>
-        </div>
-      </section>
+          <div className="team-member">
+            <h3>Almas Ansari</h3>
+            <p>Operations and Management</p>
+          </div>
 
-      <hr />
+          <div className="team-member">
+            <h3>Rishima</h3> {/* Mehrotra */}
+            <p>Operations and Management</p>
+          </div>
 
-      <section className = "team-section">
-        <div >
-          <h2>Mohd Saud</h2>
-          <span className = "span-badge">Industry Application Society</span><br />
-          <span className = "span-badge">Chairperson</span>
-        </div>
-      </section>
-
-      <hr />
-
-      <section className = "team-section">
-        <div >
-          <h2 >Shadab Faisal</h2>
-          <span className = "span-badge">Power and Energy Society Chapter</span><br />
-          <span className = "span-badge">Chairperson</span>
+          <div className="team-member">
+            <h3>Aaliya Ziya</h3>
+            <p>Operations and Management</p>
+          </div>
         </div>
       </section>
-  
-      <hr />
-
+        
+      <hr/>
     </article>
   )
 }
 
-export default index;
+export default Team;

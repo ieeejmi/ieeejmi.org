@@ -49,8 +49,7 @@ export const Blog: React.FC = () => {
 
             <h1 className="huge-title">Blog</h1>
             <p>
-              Thoughts, experiences and rants, this is a place for all forms of my writing. <br/>
-              Might even feature something good or useful from time to time.
+              
             </p>
 
             {

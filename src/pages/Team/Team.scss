@@ -1,25 +1,41 @@
-.span-badge{
-  font-size: 15px;
-  background-color: #455a64;
-  color: white;
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  padding: 0.2em; 
-  border-radius: 5px;
-}
-
 .team-section{
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 30px;
-  align-items: center;
-}
+  text-align: center;
 
-h2{
-  color: black;
-}
+  .team-member {
+    margin: auto;
 
-h1{
-  color: grey;
+    &:first-of-type {
+      text-align: left;
+      margin-left: 0;
+    }
+
+    &:last-of-type {
+      text-align: right;
+      margin-right: 0;
+    }
+
+    &:only-of-type {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .team-member {
+      &:first-of-type {
+        text-align: center;
+        margin-left: auto;
+      }
+  
+      &:last-of-type {
+        text-align: center;
+        margin-right: auto;
+      }
+    }
+
+    .flexbox[class~="flex-row"] {
+      flex-flow: column;
+    }
+  }
 }
