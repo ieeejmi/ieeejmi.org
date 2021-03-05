@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import '../../Contact/Contact.scss'
 
 import { Context } from '../../../ContextProvider'
-import { chat as ChatConfig } from '../../../env.json'
+import env from '../../../env'
 
 import { deleteConversation, getActiveConversations, sendMessage, subscribeToConvByUserId, permanentlyDeleteConversation } from '../../../services/chatService'
 import { Conversation, Message } from '../../../services/chatService'
@@ -41,7 +41,7 @@ export const ChatManager = () => {
   }
   
   useEffect(() => {
-    localStorage.setItem('deviceId', ChatConfig.masterkey)
+    localStorage.setItem('deviceId', env.chat.masterkey)
     getActiveConversations().then((list)=>{
       setConversations(list)
       context.actions.SaveConversations(list)

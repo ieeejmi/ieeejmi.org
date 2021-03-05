@@ -1,10 +1,10 @@
 import firebase from 'firebase'
-import { fire as FirebaseConfig } from '../env.json'
+import env from '../env'
 
-export const config = FirebaseConfig
+export const config = env.fire
 
 // Initialize Firebase app
-export const F = firebase.initializeApp(FirebaseConfig)
+export const F = firebase.initializeApp(config)
 F.analytics()
 
 export const firestore = firebase.firestore(F)

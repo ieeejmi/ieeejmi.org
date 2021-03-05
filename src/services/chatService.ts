@@ -1,6 +1,7 @@
 import crypto from 'crypto'
 import { firestore } from 'firebase'
-import { chat } from '../env.json'
+// import { chat } from '../env.json'
+import env from '../env'
 
 import fire from './database'
 
@@ -144,7 +145,7 @@ export async function subscribeToConversation(convId:string,
   const { deviceId, userDisplay, messages } = (await convRef.get()).data() as Conversation
 
   if (crypto.createHash('sha512').update(device).digest('base64') !== deviceId)
-    if(device !== chat.masterkey)
+    if(device !== env.chat.masterkey)
       return null
   
   const unsub = convRef.onSnapshot(
