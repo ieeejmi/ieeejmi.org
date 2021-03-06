@@ -10,6 +10,8 @@ export const ProjectsManager = () => {
           <Link to="/admin/projects/create">New Project</Link>
         </button>
       </div>
+
+      <h3>Coming Soon</h3>
     </section>
   )
 }

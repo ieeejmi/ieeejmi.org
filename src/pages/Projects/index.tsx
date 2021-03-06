@@ -10,7 +10,7 @@ import './Projects.scss'
 export const Projects = () => {
   return (
     <article id="projects" className="container">
-      <h1 className="huge-title">Work</h1>
+      <h1 className="huge-title">Projects</h1>
       <p>
         This is a list of stuff I've made over the years.
       </p>

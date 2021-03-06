@@ -12,28 +12,26 @@ export const Team: React.FC = () => {
 
       <h1 className="huge-title">Team</h1>
       <p>
-        
+        The 
       </p>
 
       <section className="team-section">
-        <div className="container flexbox flex-row">
+        <div className="flexbox flex-row">
           <div className="team-member">
-            <h3>Alisamar Husain</h3>
-            <p>Chairperson</p>
+            <h2>Alisamar Husain</h2>
+            <h4>Chairperson</h4>
           </div>
           <div className="team-member">
-            <h3>Nadia Mukhtar</h3>
-            <p>Vice Chairperson</p>
+            <h2>Nadia Mukhtar</h2>
+            <h4>Vice Chairperson</h4>
           </div>
           <div className="team-member">
-            <h3>Hammad Shakir</h3>
-            <p>Vice Chairperson</p>
+            <h2>Hammad Shakir</h2>
+            <h4>Vice Chairperson</h4>
           </div>
         </div>
-      </section>
-
-      <section className="team-section">
-        <div className="container flexbox flex-row">
+        <br/> <br/>
+        <div className="flexbox flex-row">
           <div className="team-member">
             <h3>Zehra Fatima</h3>
             <p>General Secretary</p>
@@ -115,8 +113,6 @@ export const Team: React.FC = () => {
           </div>
         </div>
       </section>
-        
-      <hr/>
     </article>
   )
 }

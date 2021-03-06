@@ -21,7 +21,7 @@ export const Contact: React.FC = () => {
       <Email/>
 
       <p>
-        If you'd like to get in touch with us directly, send us an email on team@ieeejmi.org
+        If you'd like to get in touch with us directly, send us an email on <a href="mailto:team@ieeejmi.org">team@ieeejmi.org</a>
       </p>
 
       {/* <Switch>
