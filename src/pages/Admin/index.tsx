@@ -37,9 +37,9 @@ export const Admin: React.FC = () => {
             <Link to="/admin/contact">Contacts</Link>
           </div>
 
-          {/* <div className="admin-nav-link">
-            <Link to="/admin/contact/chat">Chat</Link>
-          </div> */}
+          <div className="admin-nav-link">
+            <Link to="/admin/access">Access</Link>
+          </div>
 
           <div className="admin-nav-link">
             <Link to="/admin/settings">Settings</Link>
