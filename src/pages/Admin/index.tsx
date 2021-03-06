@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link, Route, Switch } from 'react-router-dom'
+import React, { useContext } from 'react'
+import { Link, Redirect, Route, Switch } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import './Admin.scss'
@@ -14,7 +14,11 @@ import { ContactManager } from './Contact/ContactManager'
 import { ChatManager } from './Contact/ChatManager'
 import { SettingsManager } from './Settings/SettingsManager'
 
+import { Context } from '../../ContextProvider'
+
 export const Admin: React.FC = () => {
+  const context = useContext(Context)
+  
   return (
     <article className="container">
       <Helmet>
@@ -37,9 +41,13 @@ export const Admin: React.FC = () => {
             <Link to="/admin/contact">Contacts</Link>
           </div>
 
-          <div className="admin-nav-link">
-            <Link to="/admin/access">Access</Link>
-          </div>
+          {
+            context.state.authUser.hasPermission('Superuser') ? (
+              <div className="admin-nav-link">
+                <Link to="/admin/access">Access</Link>
+              </div>
+            ) : null
+          }
 
           <div className="admin-nav-link">
             <Link to="/admin/settings">Settings</Link>
@@ -64,6 +72,18 @@ export const Admin: React.FC = () => {
               <ProjectEditor intent="edit" projectId={routeprops.match.params['projectId']} />
             )} />
             <Route path="/admin/projects" component={ProjectsManager} />
+
+            <Route path="/admin/access"
+              render={(routeprops) => (
+                context.state.authUser.hasPermission('Superuser') ? (
+                  <div>
+                    <h3>Coming Soon</h3>
+                  </div>
+                ) : (
+                  <Redirect to={`/admin`} />
+                )
+              )}
+            />
 
 
             {/* <Route path="/admin/contact/chat" component={ChatManager} /> */}

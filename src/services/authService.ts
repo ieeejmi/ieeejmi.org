@@ -14,7 +14,7 @@ type DELETE = 'AllowedDelete'
 
 type Permission = SUDO | READ | WRITE | UPDATE | DELETE
 
-interface IAuthUser {
+export interface IAuthUser {
   userid: string
   permissions: Permission[]
 }
@@ -37,7 +37,7 @@ export class AuthUser implements IAuthUser {
     this.permissions = allowed
   }
 
-  hasPermission(allow:Permission) {
+  hasPermission(allow:Permission): boolean {
     return this.permissions.includes(allow)
   }
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Route } from 'react-router-dom'
 
-import { AuthUser } from './services/authService'
+import { AuthUser, IAuthUser } from './services/authService'
 import { Article } from './services/blogService'
 import { Project } from './services/projectService'
 import { Conversation } from './services/chatService'
