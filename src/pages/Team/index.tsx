@@ -18,12 +18,14 @@ export const Team: React.FC = () => {
             <h2>Zehra Fatima</h2>
             <h4>Chairperson</h4>
           </div>
+        </div>
+        <div className="flexbox flex-row">
           <div className="team-member">
             <h2>Sankalp Arora</h2>
             <h4>Vice Chairperson</h4>
           </div>
           <div className="team-member">
-            <h2>Syed Mohd. Hamza</h2>
+            <h2>Syed Mohd Hamza</h2>
             <h4>Vice Chairperson</h4>
           </div>
         </div>
@@ -42,7 +44,7 @@ export const Team: React.FC = () => {
       </section>
       <hr/>
 
-      <section className="team-section">
+      {/* <section className="team-section">
         <h2>Women in Engineering Affinity Group</h2>
         <div className="container team-member">
           <h3>Noaima Bari</h3>
@@ -51,7 +53,7 @@ export const Team: React.FC = () => {
             Women in Engineering Affinity Group
           </p>
         </div>
-      </section>
+      </section> */}
 
       <section className="team-section">
         <h2>Computer Society Chapter</h2>
