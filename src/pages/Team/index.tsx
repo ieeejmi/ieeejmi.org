@@ -11,37 +11,34 @@ export const Team: React.FC = () => {
       </Helmet>
 
       <h1 className="huge-title">Team</h1>
-      <p>
-        The 
-      </p>
 
       <section className="team-section">
         <div className="flexbox flex-row">
           <div className="team-member">
-            <h2>Alisamar Husain</h2>
+            <h2>Zehra Fatima</h2>
             <h4>Chairperson</h4>
           </div>
           <div className="team-member">
-            <h2>Nadia Mukhtar</h2>
+            <h2>Sankalp Arora</h2>
             <h4>Vice Chairperson</h4>
           </div>
           <div className="team-member">
-            <h2>Hammad Shakir</h2>
+            <h2>Syed Mohd. Hamza</h2>
             <h4>Vice Chairperson</h4>
           </div>
         </div>
         <br/> <br/>
-        <div className="flexbox flex-row">
+        {/* <div className="flexbox flex-row">
           <div className="team-member">
-            <h3>Zehra Fatima</h3>
+            <h3>__Name__</h3>
             <p>General Secretary</p>
           </div>
           
           <div className="team-member">
-            <h3>Syed Mohammad Hamza</h3>
+            <h3>__Name__</h3>
             <p>General Secretary</p>
           </div>
-        </div>
+        </div> */}
       </section>
       <hr/>
 
@@ -60,24 +57,24 @@ export const Team: React.FC = () => {
         <h2>Computer Society Chapter</h2>
         <div className="container flexbox flex-row">
           <div className="team-member">
-            <h3>Sankalp Arora</h3>
+            <h3>Bilal Naqvi</h3>
             <p>
               Chairperson <br/>
               Computer Society Chapter
             </p>
           </div>
 
-          <div className="team-member">
-            <h3>Bilal Naqvi</h3>
+          {/* <div className="team-member">
+            <h3>__Name__</h3>
             <p>
               Secretary <br/>
               Computer Society Chapter
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
 
-      <section className="team-section">
+      {/* <section className="team-section">
         <h2>Power Electronics Society Chapter</h2>
         <div className="container team-member">
           <h3>Mohd Saud</h3>
@@ -87,7 +84,7 @@ export const Team: React.FC = () => {
           </p>
         </div>
       </section>
-      <hr/>
+      <hr/> */}
 
       <section className="team-section">
         <h2>Executive Team</h2>
